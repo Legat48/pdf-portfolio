@@ -1,0 +1,11 @@
+@function rem($n) {
+  @return calc($n / 16)+rem;
+}
+// Увеличение к большому экрану
+@function sizeIncr($min, $max) {
+  @return calc((var(--vw) - #{$minvw}px)/(#{$maxvw - $minvw}) * (#{$max - $min}) + #{$min}px);
+}
+// Уменьшение к большому экрану
+@function sizeDecr($min, $max) {
+  @return calc(#{$max}px - ((var(--vw) - #{$minvw}px)/(#{$maxvw - $minvw}) * (#{$max - $min})));
+}

@@ -1,0 +1,9 @@
+.btn {
+  position: relative;
+  border-color: transparent;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  @include transition;
+}

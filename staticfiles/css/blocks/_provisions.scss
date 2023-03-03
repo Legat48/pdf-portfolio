@@ -1,0 +1,44 @@
+.provisions {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        max-width: 324px;
+        font-weight: 400;
+        font-size: 59px;
+        line-height: 101.02%;
+    }
+    &__cirle {
+        position: absolute;
+        inset: 77px auto auto 115px;
+    }
+    &__right {
+        max-width: 740px;
+    }
+    &__list {
+        padding-top: 100px;
+    }
+    &__item {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    &__number {
+        margin-right: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 145%;
+        color: var(--color-text-3);
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 145%;
+        color: var(--color-text-1);
+
+    }
+}

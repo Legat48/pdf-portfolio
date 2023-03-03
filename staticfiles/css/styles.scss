@@ -1,0 +1,23 @@
+@import './resources/normalize';
+@import './scss/fonts';
+@import './scss/function';
+@import './scss/mixin';
+@import './scss/variables';
+
+@import './resources/browser-scroll';
+
+@import './substyle/common';
+@import './substyle/btn';
+
+@import './blocks/all';
+@import './blocks/page';
+@import './blocks/print';
+@import './blocks/portfolio';
+@import './blocks/provisions';
+@import './blocks/property-protection';
+@import './blocks/table';
+@import './blocks/limitation';
+@import './blocks/doughnut';
+
+
+

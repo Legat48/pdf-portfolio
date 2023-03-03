@@ -1,0 +1,30 @@
+.only-print {
+    display: none;
+}
+@media print {
+    .only-print {
+        display: block;
+    }
+    /* запрет переноса */
+    tr,
+    td,
+    th,
+    .header,
+    .chart-header,
+    .chart-header__number {
+        page-break-after: avoid;
+    }
+    .header {
+        page-break-before: always;
+
+    }
+    .page-break {
+        page-break-after: always;
+    }
+    .page-no-break-before {
+        page-break-before: avoid;
+    }
+    .page {
+        margin-top: 0;
+    }
+}
