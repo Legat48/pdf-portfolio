@@ -1,0 +1,253 @@
+.table {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: var(--color-bg-table-2);
+    &__header-wrap {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px 5px 0 0;
+        border-bottom: 1px solid rgba(29, 29, 29, 0.55);
+        background-color: var(--color-bg-table-1);
+    }
+    &__title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &__title {
+        padding: 8px;
+        width: 48%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 145%;
+    }
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+    }
+    &__cell-header {
+        padding: 10px;
+        &_1 {
+            &-1 {
+                width: 30px;
+            }
+            &-2 {
+                width: 208px;
+            }
+            &-3 {
+                width: 54px;
+            }
+            &-4 {
+                width: 108px;
+            }
+            &-5 {
+                font-weight: 700;
+                width: 60px;
+            }
+            &-6 {
+                width: 104px;
+            }
+            &-7 {
+                width: 115px;
+            }
+            &-8 {
+                width: 242px;
+            }
+            &-9 {
+                width: 242px;
+            }
+        }
+        &_2 {
+            &-1 {
+                width: 30px;
+            }
+            &-2 {
+                width: 220px;
+            }
+            &-3 {
+                width: 60px;
+            }
+            &-4 {
+                font-weight: 700;
+                width: 90px;
+            }
+            &-5 {
+                width: 55px;
+            }
+            &-6 {
+                width: 55px;
+            }
+            &-7 {
+                width: 55px;
+            }
+            &-8 {
+                width: 82px;
+            }
+            &-9 {
+                width: 85px;
+                font-weight: 700;
+            }
+            &-10 {
+                width: 85px;
+            }
+            &-11 {
+                width: 55px;
+            }
+            &-12 {
+                width: 75px;
+            }
+            &-13 {
+                width: 85px;
+            }
+            &-14 {
+                width: 85px;
+            }
+        }
+    }
+    &__line {
+        display: flex;
+        align-items: center;
+        height: 26px;
+        &:nth-child(2n) {
+            border-radius: 5px;
+            background-color: var(--color-bg-table-1);
+        }
+        &:nth-child(2) {
+            border-radius: 0 0 5px 5px;
+        }
+    }
+    &__cell {
+        padding: 0 10px;
+        &_1 {
+            &-1 {
+                width: 30px;
+            }
+            &-2 {
+                width: 208px;
+            }
+            &-3 {
+                width: 54px;
+            }
+            &-4 {
+                width: 108px;
+            }
+            &-5 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                width: 60px;
+                span {
+                    border-radius: 5px;
+                    width: 43px;
+                    height: 20px;
+                    text-align: center;
+                    vertical-align: middle;
+                    line-height: 165%;
+                    color: var(--color-text-dark);
+                    background-color: var(--color-text-value-70-100);
+                }
+                &_46-70 {
+                    background-color: var(--color-text-value-46-70);
+                }
+                &_30-45 {
+                    background-color: var(--color-text-value-30-45);
+                }
+                &_16-30 {
+                    background-color: var(--color-text-value-16-30);
+                }
+                &_0-15 {
+                    background-color: var(--color-text-value-0-15);
+                }
+            }
+            &-6 {
+                width: 104px;
+            }
+            &-7 {
+                width: 115px;
+            }
+            &-8 {
+                width: 242px;
+            }
+            &-9 {
+                width: 242px;
+            }
+        }
+        &_2 {
+            &-1 {
+                width: 30px;
+            }
+            &-2 {
+                width: 220px;
+            }
+            &-3 {
+                width: 60px;
+            }
+            &-4 {
+                width: 90px;
+                font-weight: 700;
+                color: var(--color-text-value-70-100);
+                &_46-70 {
+                    color: var(--color-text-value-46-70);
+                }
+                &_30-45 {
+                    color: var(--color-text-value-30-45);
+                }
+                &_16-30 {
+                    color: var(--color-text-value-16-30);
+                }
+                &_0-15 {
+                    color: var(--color-text-value-0-15);
+                }
+            }
+            &-5 {
+                width: 55px;
+            }
+            &-6 {
+                width: 55px;
+            }
+            &-7 {
+                width: 55px;
+            }
+            &-8 {
+                width: 82px;
+            }
+            &-9 {
+                width: 85px;
+                font-weight: 700;
+                color: var(--color-text-value-70-100);
+                &_46-70 {
+                    color: var(--color-text-value-46-70);
+                }
+                &_30-45 {
+                    color: var(--color-text-value-30-45);
+                }
+                &_16-30 {
+                    color: var(--color-text-value-16-30);
+                }
+                &_0-15 {
+                    color: var(--color-text-value-0-15);
+                }
+            }
+            &-10 {
+                width: 85px;
+            }
+            &-11 {
+                width: 55px;
+            }
+            &-12 {
+                width: 75px;
+            }
+            &-13 {
+                width: 85px;
+            }
+            &-14 {
+                width: 85px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.limitation {
+    &__cirle {
+        position: absolute;
+        inset: -125px auto auto 683px;
+    }
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    &__title{
+        margin-bottom: 78px;
+        max-width: 495px;
+    }
+    &__text {
+        margin-bottom: 15px;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 135%;
+    }
+}

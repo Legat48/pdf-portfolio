@@ -1,0 +1,21 @@
+.property-protection {
+    &__cirle {
+        position: absolute;
+        inset: -125px auto auto 683px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    &__title{
+        margin-bottom: 78px;
+        max-width: 515px;
+    }
+    &__subtitle {
+       margin-bottom: 18px;
+    }
+    &__subwrap {
+        max-width: 48%;
+    }
+}
