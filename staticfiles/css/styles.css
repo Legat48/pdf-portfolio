@@ -1100,4 +1100,28 @@ canvas {
   font-weight: 300;
   font-size: 11px;
   line-height: 135%;
+}
+
+.doughnut__text {
+  margin-bottom: 28px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 145%;
+}
+.doughnut__doughnut-wrap {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+}
+.doughnut__subtitle {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115%;
+}
+.doughnut__subtitle span {
+  color: #3FA6FA;
+}
+.doughnut__doughnut {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

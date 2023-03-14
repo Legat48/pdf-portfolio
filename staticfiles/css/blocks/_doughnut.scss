@@ -1,0 +1,29 @@
+.doughnut {
+    &__title {
+
+    }
+    &__text {
+        margin-bottom: 28px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 145%;
+    }
+    &__doughnut-wrap {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+    }
+    &__subtitle {
+        margin-bottom: 22px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 115%;
+        span {
+            color:#3FA6FA;
+        }
+    }
+    &__doughnut {
+        width: 100%;
+    }
+
+}
